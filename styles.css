@@ -17,9 +17,6 @@ h2 {
 }
 /* END SETUP */
 
-/* Classes that you might find useful */
-/* You may also have to implement your own classes */
-
 .flag {
   height: 300px;
   width: 500px;
@@ -27,15 +24,21 @@ h2 {
   margin-bottom: 5rem;
 }
 
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
 .twovert {
   height: 50%;
 }
 
 .threevert {
+  height: 33%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 33.333%;
 }
 
 .narrow {
@@ -55,7 +58,7 @@ h2 {
   top: 50px;
 }
 
-/* Colors */
+/* Specific colors re-done to match appropriate flag colors */
 
 /* QUESTION 1 */
 
@@ -91,35 +94,73 @@ h2 {
   background-color: #000;
 }
 
+.red {
+  background-color: #DC143C;
+}
+
+.light-blue {
+  height:101px;
+  background-color: #51ADDA;
+}
+.luxembourg-red {
+  background-color: #EA141D;
+}
+
+
+#white {
+  width:500px;
+  height:100px;
+  background-color: #fff;
+}
+
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
+  background-color: #B5002D;
+  width: 500px;
+  height: 50px;
   /* TODO */
 }
 
 .thailand-white {
   /* TODO */
+  background-color: #fff;
+  width: 500px;
+  height: 50px;
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: #2E2A4C;
+  width: 500px;
+  height: 100px;
 }
 
 /* END QUESTION 2 */
 
 /* BEGIN QUESTION 3 */
 
+.roman {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .romania-blue {
-  background-color: #002c84;
+  background-color: #002B7F;
+  height: 100px;
 }
 
 .romania-yellow {
-  background-color: #ffcf00;
+  background-color: #FCD116;  
+  height: 100px;
 }
 
 .romania-red {
-  background-color: #e10017;
+  background-color: #CE1126;
+  height: 100px;
 }
+
 
 /* END QUESTION 3 */
 
@@ -130,12 +171,27 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  background-image: url("eagle.png");
+  background-position: center;
+  background-size: 66.66%;
+  background-repeat: no-repeat;
 }
 
 .mexico-red {
-  background-color: #ce1126;
+  color: #C8102E;
 }
 
+/*Q5 */
+
+.label {
+  color: black;
+}
+
+.label:hover {
+  color: darkred;
+  font-size: large;
+}
+/*
 /* QUESTION 6 */
 .margin-container {
   height: 300px;
@@ -148,18 +204,24 @@ h2 {
 
 /* For margin practice */
 .flag1 {
-  background-color: red;
+  height: 298px;
+  background-color: lime;
+  margin-bottom: 10px;
   /* TODO */
 }
 
 .flag2 {
-  background-color: blue;
+  height:298px;
+  background-color: orangered;
+  margin-left: 10px;
   /* TODO */
 }
+
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
-  background-color: lightblue;
+  background-color: greenyellow;
   background-clip: content-box, padding-box;
+  padding: 60px;
   /* TODO */
 }
