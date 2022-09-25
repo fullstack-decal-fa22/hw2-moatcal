@@ -1,1 +1,1 @@
-https://hw2moatcal.netlify.app/
+https://fullstack-decal-fa22.github.io/hw2-moatcal/
